@@ -1,0 +1,33 @@
+{
+    "name": "nextjs-chat",
+    "version": "1.0.0",
+    "description": "Simple Chat app made with Next.js, Express.js, Socket.io and Tailwind",
+    "main": "server.js",
+    "author": "Taimoor-Tariq",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "cross-env NODE_ENV=production node server.js"
+    },
+    "dependencies": {
+        "@heroicons/react": "^1.0.5",
+        "cookie-cutter": "^0.2.0",
+        "cross-env": "^7.0.3",
+        "dotenv": "^14.3.0",
+        "express": "^4.17.2",
+        "javascript-time-ago": "^2.3.10",
+        "next": "^12.0.8",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "sass": "^1.49.0",
+        "socket.io": "^4.4.1",
+        "socket.io-client": "^4.4.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.16"
+    }
+}
